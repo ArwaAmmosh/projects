@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../static/styles.css">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+  <title>Warehouse</title>
+</head>
+
+<body>
+  <!--header-->
+  <header class="header">
+    
+      
+    
+    <div class="header-2">
+      <img src="../images/download-removebg-preview (1).png" alt="Titans Logo">
+      
+      <nav class="navbar">
+        
+        <ul>
+          <li><a href="#warehouses">Warehouses</a></li>
+          <li><a href="suppliers.html">suppliers</a></li>
+          <li><a href="workers.html">Employees</a></li>
+          <li><a href="#expenses">Expenses</a></li>
+          <li><a href="#Profits">Profit</a></li>
+          <li><a href="index.html">log out    <i class="fa-solid fa-right-from-bracket"></i></a></li>
+
+        </ul>
+      </nav>
+    </div>
+    
+    
+  </header>
+ 
+  
+
+  
+  
+  <!--featured-->
+  <section class="sec" id="warehouses">
+    <h1 class="heading"><span>Warehouses</span></h1>
+   
+    <div class="wares" id="wares">
+      <div class="ware">
+        <a href="Warehouse.html" ><h3>Main Warehouse</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+        
+      </div>
+      <div class="ware">
+       <a href="Warehouse1.html" ><h3>Warehouse 1</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+      </div>
+      <div class="ware">
+        <a href="Warehouse2.html" ><h3>Warehouse 2</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+      </div>
+      <div class="ware">
+        <a href="Warehouse3.html" ><h3>Warehouse 3</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+      </div>   
+      <div class="ware">
+        <a href="Warehouse4.html" ><h3>Warehouse 4</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+      </div>
+      <div class="ware">
+        <a href="Warehouse5.html" ><h3>Warehouse 5</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+      </div>
+      <div class="ware">
+        <a href="Warehouse6.html" ><h3>Warehouse 6</h3></a>
+        <i class="fa-solid fa-warehouse"></i>
+      </div>
+      
+      
+    </div>
+  </section>
+  <!--featured-->
+  <section class="sec" id="expenses">
+    <h1 class="heading"><span>Expenses</span></h1>
+   <div class="exps">
+  <div class="exp">
+     <input type="button" value="Total" onclick="display_total()">
+      
+  </div>
+  <div class="exp">
+     <a href="expense.html"> <h3>Track & add</h3>  </a>
+      
+  </div>
+  
+   </div>
+    
+  </section>
+    <!--featured-->
+    <section class="sec" id="Profits">
+      <h1 class="heading"><span>Profit</span></h1>
+     <div class="exps">
+      <div class="exp">
+        <h3>profit per week</h3>
+        
+    </div>   
+    <div class="exp">
+        <h3>profit per month</h3>  
+        
+    </div>
+    <div class="exp">
+        <h3>profit per year</h3>  
+        
+    </div>
+    <div class="exp">
+      <h3>statics</h3>  
+      
+  </div>
+    
+     </div>
+      
+    </section>
+    <div class="addform">
+      <div id="closeadd" class="fas fa-times" onclick="actn()"></div>
+      <form>
+          <h3>total amount:</h3>
+          <input type="text" class="box" placeholder="enter the name ..." id="tota" readonly>
+          
+
+      </form>
+  </div>
+  <script src="../static/scripte.js"></script>
+
+
+</body>
+</html>
+    

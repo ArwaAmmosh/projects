@@ -1,0 +1,129 @@
+:root {
+    --green: rgb(39, 174, 96);
+    --dark-color: rgb(33, 145, 80);
+    --black: rgb(68, 68, 68);
+    --light-color: rgb(102, 102, 102);
+    --border: .1rem solid rgba(0, 0, 0, .1);
+    --border-hover: .1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+body{
+    background-color: var(--light-color);
+}
+.logincontainer {
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.9);
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1000000;
+}
+
+.logincontainer form {
+background: rgb(255, 255, 255);
+border: var(--border);
+width: 40rem;
+padding: 2rem;
+box-shadow: var(--box-shadow);
+border-radius: 0.5rem;
+margin: auto;
+}
+
+.logincontainer form h3 {
+padding-bottom: 1rem;
+font-size: 2.5rem;
+text-transform: uppercase;
+color: var(--black);
+text-align: center;
+}
+
+.logincontainer form label {
+display: block;
+font-size: 1.5rem;
+padding-top: 1rem;
+}
+
+.logincontainer form .box {
+border: var(--border);
+width: 100%;
+border-radius: 0.5rem;
+margin: 0.7rem;
+font-size: 1.6rem;
+padding: 1rem 1.2rem;
+color: var(--black);
+text-transform: none;
+}
+
+.logincontainer form .chechboxcon {
+display: flex;
+align-items: center;
+gap: 5rem;
+padding: 1rem;
+}
+
+.logincontainer form .chechboxcon label {
+font-size: 1.5rem;
+color: var(--light-color);
+cursor: pointer;
+}
+
+.logincontainer form .btn {
+text-align: center;
+width: 100%;
+margin: 1.7rem 0;
+background-color: var(--green);
+}
+
+.logincontainer form p {
+margin-top: 1.7rem;
+color: var(--light-color);
+font-size: 1.7rem;
+}
+
+.logincontainer form p a {
+color: var(--green);
+text-decoration: underline;
+}
+
+.logincontainer #closelogin {
+position: absolute;
+top: 1.5rem;
+right: 2.5rem;
+font-size: 5rem;
+color: var(--black);
+cursor: pointer;
+}
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 345px;
+    font-size: 18px;
+    color:#c62828;
+    background-color: rgba(255,0,0,0.1);
+    text-align: center;
+    display: none;
+}
+.chechboxcon {
+    display: inline;
+    
+  }
+ 

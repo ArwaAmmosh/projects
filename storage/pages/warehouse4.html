@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>warehouse 2</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <img src="../images/download-removebg-preview (1).png" alt="Titans Logo">
+
+        </div>
+
+        <form class="searchform">
+            <input type="search" placeholder="search here ...." id="searchbox">
+            <label for="searchbox" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <a href="home.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+
+    </header>
+    <section class="container">
+        <div style="overflow-x:auto;">
+        <table >
+            <tr>
+                <th>
+                    date
+                </th>
+                <th>
+                    n of shipment
+                </th>
+                <th>
+                    ammount
+                </th>
+                <th>
+                    type of shipment
+                </th>
+                <th>
+                    price
+                </th>
+                <th>
+                    expenses
+                </th>
+                <th>
+                    profit
+                </th>
+                <th>
+                    update
+                </th>
+            </tr>
+      <tbody id="record4">
+
+      </tbody>
+        </table>
+    </div>
+    </section>
+    <footer class="footer">
+       <div > 
+        <input type="button" class="btn" value="    add    " onclick="act()">
+    </div>
+    </footer>
+    <div class="addform">
+        <div id="closeadd" class="fas fa-times" onclick="actn()"></div>
+        <form>
+            <h3 id="la">Add shipment:</h3>
+
+            <label>date:</label>
+            <input type="date" class="box" placeholder="enter the date ..." id="da">
+            <label>ammount:</label>
+           <input type="text" class="box" placeholder="enter the ammount ..." id="am">
+            <label> type of shipment :</label>
+           <input type="text" class="box" placeholder="enter the type ..." id="ts">
+            <label>price:</label>
+           <input type="text" class="box" placeholder="enter the price ..." id="pa">
+            <label>price of selling:</label>
+            <input type="text" class="box" name="" id="se" placeholder="enter the  price ...">
+            <label>expenses:</label>
+            <input type="text" class="box" name="" id="ex" placeholder="enter the sell expenses ...">
+            <input type="button" value="Add" class="btn" onclick="addsh()" id="add">
+
+        </form>
+    </div>
+    <script src="../static/scriptw4.js"></script>
+</body>
+
+</html>

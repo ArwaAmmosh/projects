@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --green: rgb(39, 174, 96);
+    --dark-color: rgb(33, 145, 80);
+    --black: rgb(68, 68, 68);
+    --light-color: rgb(102, 102, 102);
+    --border: .1rem solid rgba(0, 0, 0, .1);
+    --border-hover: .1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+html {
+    font-size: 60.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--black);
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: rgb(255, 255, 255);
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.btn:hover {
+    background: var(--dark-color);
+}
+
+
+table {
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+
+ 
+}
+
+th {
+    font-size: 3.1rem;
+    padding: 2.5rem;
+}
+td{
+    font-size: 2.5rem;
+
+}
+tr{
+    width: 100%;
+}
+.header {
+    background: rgb(255, 255, 255);
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    background-color: var(--green);
+}
+
+.header .logo {
+    font-weight: bolder;
+    color: var(--black);
+  
+}
+.logo img{
+    width: 40px;
+    margin: 4px;
+}
+.header .searchform {
+    width: 60rem;
+    height: 5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 25px 25px;
+    margin-left: 5rem;
+}
+
+.header .searchform input {
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+
+.header .searchform label {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.header .searchform label:hover {
+    color: var(--green);
+}
+
+.header .icons {
+    float: right;
+}
+
+.header .icons div,
+.header .icons a {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+.header .icons div:hover,
+.header .icons a:hover {
+    color: var(--black);
+}
+.addform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .9);
+    position: fixed;
+    top: 0;
+    right: -105%;
+    z-index: 1000000;
+    height: 100%;
+    width: 100%;
+
+}
+
+.addform.active {
+    right: 0;
+}
+
+.addform form {
+    background: rgb(255, 255, 255);
+    border: var(--border);
+    width: 70rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.addform form h3 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: center;
+
+}
+
+.addform form label {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.addform form .box {
+    border: var(--border);
+    width: 100%;
+    border-radius: .5rem;
+    margin: .7rem;
+    font-size: 1.6rem;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.addform form .chechboxcon {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+.addform form .chechboxcon label {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.addform form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 1.7rem 0;
+}
+
+.addform form p {
+    margin-top: 1.7rem;
+    color: var(--light-color);
+    font-size: 1.7rem;
+}
+
+.addform form p a {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.addform #closeadd {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.footer{
+   margin-top: 7rem;
+   width: 100%;
+   align-items: center;
+}
+.footer .btn{
+    display: block;
+    margin-top: 1rem;
+}
+.footer div{
+    margin-left:70%;
+}
+
+    
+@media (max-width:450px) {
+    *{
+        padding: 0;
+    }
+    html {
+        font-size: 30%;
+    }
+
+    .header  {
+        padding: 2rem;
+    }
+    tr{
+        font-size: smaller;
+    }
+  
+    
+
+}
