@@ -1,0 +1,15 @@
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.csproj.AssemblyReference.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.AssemblyInfoInputs.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.AssemblyInfo.cs
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.csproj.CoreCompileInputs.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\bin\Debug\net7.0\HPC_Sec2.exe
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\bin\Debug\net7.0\HPC_Sec2.deps.json
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\bin\Debug\net7.0\HPC_Sec2.runtimeconfig.json
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\bin\Debug\net7.0\HPC_Sec2.dll
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\bin\Debug\net7.0\HPC_Sec2.pdb
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.dll
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\refint\HPC_Sec2.dll
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.pdb
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\HPC_Sec2.genruntimeconfig.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\HPC_Sec2\obj\Debug\net7.0\ref\HPC_Sec2.dll
